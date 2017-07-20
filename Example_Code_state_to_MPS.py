@@ -64,7 +64,7 @@ for i in range(0,N):
     j = np.random.randint(2)    
     print(j)
     c = np.dot(c, M[i][:,j,:])  #c gives the result of the matrix multiplikation with random indices sigma={0,1}
-                                #therefore c is only != if all indoices are equal (e.g. 0000 or 1111)
+                                #therefore c is only !=0 if all indices are equal (e.g. 0000 or 1111)
     
 print(a, b, c)
 
